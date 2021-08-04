@@ -19,7 +19,8 @@ api = tweepy.API(auth)
 
 
 # What the bot will tweet
-filename = open('phrases_coined_by_shakespeare.txt','r') 
+# filename = open('phrases_coined_by_shakespeare.txt','r') 
+filename = open('dandelion.txt','r') 
 tweet_text = filename.readlines() #this creates a list: one line → one item
 filename.close()
 

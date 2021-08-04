@@ -6,7 +6,7 @@
 
 # This bot mashes up ALA talk titles to make new ones.
 # First, it takes a list of talks from ALA Annual Meetings 2016-2021,
-# and splits those titles half: beginnings and endings.
+# and splits those titles in half: beginnings and endings.
 # Then, it chooses a random beginning and a random ending, smushes 
 # them together into a new talk title, and tweets it.
 
